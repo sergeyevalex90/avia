@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  <link href="./style.css" rel="stylesheet"></head>
+  <body>
+    <nav class="header purple darken-1">
+      <div class="nav-wrapper">
+        <div class="container d-flex align-items-center">
+          <div class="logo d-flex align-items-center">
+            <i class="large material-icons">flight_takeoff</i>
+            <a href="#" class="brand-logo">Avia Tickets</a>
+          </div>
+          <ul id="nav-mobile" class="right hide-on-med-and-down ml-auto">
+            <li>
+              <div class="input-field currency-select col s12">
+                <select>
+                  <option value="USD">$ US Dollar</option>
+                  <option value="EUR">€ Euro</option>
+                </select>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="form-section">
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col m6 mx-auto">
+            <div class="card">
+              <form action="" name="locationControls">
+                <div class="card-content">
+                  <span class="card-title">Card Title</span>
+                  <div class="input-field">
+                    <input type="text" id="origin-input" class="autocomplete" />
+                    <label for="origin-input">Origin</label>
+                  </div>
+                  <div class="input-field">
+                    <input
+                      type="text"
+                      id="destination-input"
+                      class="autocomplete"
+                    />
+                    <label for="destination-input">Destination</label>
+                  </div>
+                  <div class="input-field">
+                    <input
+                      type="text"
+                      class="datepicker"
+                      id="datepicker-depart"
+                    />
+                    <label for="datepicker-depart">Depart date</label>
+                  </div>
+                  <div class="input-field">
+                    <input
+                      type="text"
+                      class="datepicker"
+                      id="datepicker-return"
+                    />
+                    <label for="datepicker-return">Return date</label>
+                  </div>
+                </div>
+                <div class="card-action d-flex">
+                  <button
+                    class="btn waves-effect waves-light purple darken-3"
+                    type="submit"
+                    name="action"
+                  >
+                    Search
+                    <i class="material-icons right">send</i>
+                  </button>
+                  <button
+                    class="btn waves-effect waves-light pink darken-3 ml-auto"
+                    type="reset"
+                    name="action"
+                  >
+                    Reset
+                    <i class="material-icons right">cancel</i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <script type="text/javascript" src="polyfill.e20a17db78c5d25f30e6.js"></script><script type="text/javascript" src="app.e20a17db78c5d25f30e6.js"></script></body>
+</html>
